@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+
+ .input-group{
+    width: 100px;
+ }
+
+ .qanda {
+  border-left : 5px solid rgb(168, 168, 168);
+  padding : 3px 20px;
+  margin-bottom: 10px;
+ }
+
+ .author {
+  font-style: italic;
+ }

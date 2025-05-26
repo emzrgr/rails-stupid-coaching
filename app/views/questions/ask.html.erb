@@ -1,0 +1,12 @@
+<div class="container m-3">
+  <h1>Stupid coaching</h1>
+    <form action="/answer" method="get" data-turbo="false">
+        <label for="questionInput" class="form-label">Ask your coach anything:</label><br>
+        <div class="input-group ">
+          <input id="questionInput" type="text" name="question" class="form-control" value="<%= params[:question] %>">
+            <div class="input-group-append">
+              <input type="submit" value="Ask!" class="input-group-text btn btn-primary">
+            </div>
+        </div>
+    </form>
+</div>

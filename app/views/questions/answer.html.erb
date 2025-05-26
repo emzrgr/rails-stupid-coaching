@@ -1,0 +1,16 @@
+<div class="container m-3">
+  <h1 class="mb-3">Stupid Coaching</h1>
+  <%# affiche la question que tu poses (au coach) %>
+  <div class="qanda">
+    <%= @question %><br>
+    <p class="author pt-2">-You</p>
+  </div>
+  <div class="qanda bg-warning">
+    <%# affiche la réponse du coach %>
+    <%= @answer %><br>
+    <p class="author">-Your coach</p>
+  </div>
+
+  <%= link_to "Ask a new question", ask_path %>
+
+</div>
